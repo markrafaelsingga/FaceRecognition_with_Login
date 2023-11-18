@@ -71,8 +71,6 @@ namespace login_app
                 }
             }
 
-           
-
             try
             {
                 if (full == label1.Text)
@@ -100,7 +98,7 @@ namespace login_app
                 }
                 else
                 {
-                    MessageBox.Show("SAYOP KA BOGO UNDANG SKWELA!");
+                    MessageBox.Show("Username,Password or Your face is not recorded");
                 }
             }catch(Exception ex)
             {
